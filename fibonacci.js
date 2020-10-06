@@ -16,8 +16,8 @@ Trevor Kakuba
   // Next fibonacci number = previous + one before previous
     return fibonacci(number - 1) + fibonacci(number - 2);
   }
-  // console.log(fibonacci(10));
+  console.log(fibonacci(1));
 
-  module.exports = fibonacci(10);
+  module.exports = fibonacci;
  
 
